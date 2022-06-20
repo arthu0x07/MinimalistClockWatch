@@ -10,7 +10,6 @@ export const ContainerBotoes = Styled.section`
         height: 15px;
         width: 15px;
         transition: transform 0.5s ease-in-out;
-        transform: ${(props) => (props.disable ? "scale(1.9)" : "scale(1)")};
         cursor: pointer;
     }
 `;
@@ -22,6 +21,7 @@ export const BotaoStart = Styled.div`
     right: 0px;
 
     opacity: ${(props) => (props.disable ? 1 : 0.2)};
+    transform: ${(props) => (props.disable ? "scale(1.9)" : "scale(1)")};
 
 `;
 
@@ -34,6 +34,7 @@ export const BotaoStop = Styled.div`
     right: 74px;
 
     opacity: ${(props) => (props.disable ? 1 : 0.2)};
+    transform: ${(props) => (props.disable ? "scale(1.9)" : "scale(1)")};
 
 `;
 
@@ -46,6 +47,7 @@ export const BotaoClear = Styled.div`
     right: 150px;
 
     opacity: ${(props) => (props.disable ? 1 : 0.2)};
-    
+    transform: ${(props) => (props.disable ? "scale(1.9)" : "scale(1)")};
+
 
 `;
