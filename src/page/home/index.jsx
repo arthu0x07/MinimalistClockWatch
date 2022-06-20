@@ -60,6 +60,7 @@ export function Home() {
       setStartButton(false);
       setStopbutton(true);
       setIsActive(true);
+      setClearButton(false);
     }
   }
 
