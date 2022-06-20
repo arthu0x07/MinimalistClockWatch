@@ -79,7 +79,7 @@ export function Home() {
   }
 
   function ClearContador() {
-    if (ClearContador) {
+    if (ClearContador && isActive == false) {
       setTime({
         hours: 0,
         minutes: 0,
