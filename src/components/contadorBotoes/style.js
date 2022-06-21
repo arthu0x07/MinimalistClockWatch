@@ -9,7 +9,7 @@ export const ContainerBotoes = Styled.section`
     div{
         height: 15px;
         width: 15px;
-        transition: transform 0.5s ease-in-out alternate;
+        transition: transform 0.5s ease-in-out;
         cursor: pointer;
     }
 `;
